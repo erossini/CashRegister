@@ -99,6 +99,7 @@ All of these features can be put together to create complex programs with nested
 
 #### List of Goods
 The list of goods can be created every time manually or loaded from file. To save a list, select option n. 4
+
 ![List of Goods](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister3.PNG)
 
 #### Shopping menu
@@ -106,6 +107,5 @@ The list of goods can be created every time manually or loaded from file. To sav
 
 #### Basket screen
 You add your items in the basket. When you finish, press `0` and the application shows you your receipt, your basket and all history.
-![Basket screen](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister5.PNG)
 
-## Point of intests
+![Basket screen](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister5.PNG)
