@@ -54,7 +54,14 @@ Interfaces define properties, methods, and events, which are the members of the 
 - **IGoodsManager.cs** defines how to manage your good
 - **IRepository.cs** defines the requirements for a simple repository
 
+#### BasketManager implements IBasketManager.cs
+_BasketManager_ is responsible for managing your shopping, creating the shopping history and writing your receipt. 
+
+When a new item is added in the basker, _BasketManager_ checks if there is any offer for that product and, eventually, calculates the right price and update the receipt.
+
 #### GoodsManager implements IGoodsManager
-Based on the Good model (under _Model > Good_), _GoodManager_ adds new item in the shopping list. When you add a new good, there is a validation of your input and a check if this element already exists in the shopping list.
+_GoodManager_ is responsible for managing items in the shopping list. 
+
+When you add a new good, there is a validation of your input and a check if this element already exists in the shopping list.
 
 ## Point of intests
