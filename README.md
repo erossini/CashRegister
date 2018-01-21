@@ -66,4 +66,7 @@ With TDD it cans test all functions and scenarios for **CashRegister.Library**.
 
 ![Test Explorer for CashRegister.Library](https://github.com/erossini/CashRegister/blob/master/Screenshot/TestExplorer.PNG)
 
+### CashRegister.Repository
+In this project there is the implementation from **CashRegister.Library** for repository. Basically this module is responsible to read and write on file system the list of goods or a basket. Files are saved in _json_ format in a _Data_ folder in the local directory.
+
 ## Point of intests
