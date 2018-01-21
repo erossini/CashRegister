@@ -69,4 +69,6 @@ With TDD it cans test all functions and scenarios for **CashRegister.Library**.
 ### CashRegister.Repository
 In this project there is the implementation from **CashRegister.Library** for repository. Basically this module is responsible to read and write on file system the list of goods or a basket. Files are saved in _json_ format in a _Data_ folder in the local directory.
 
+To avoid redundant code or duplicated function, there is a generic _GenericRepository<T>_ that write or read a file in json, serialized or deserialized data with a particular type: for each model there is class that it defines only the name of the function.
+
 ## Point of intests
