@@ -72,6 +72,24 @@ In this project there is the implementation from **CashRegister.Library** for re
 To avoid redundant code or duplicated function, there is a generic _GenericRepository<T>_ that write or read a file in json, serialized or deserialized data with a particular type: for each model there is class that it defines only the name of the function.
 
 ### CashRegister.ConsoleApp
+To try **CashRegister.Library** I created a console application. Why? I thought it was a best way to show you how I can work. Under _Infrastructures_ folder, there is my implementation and extension of a basic Console application to build a simple menu interface and also introduce a navigation logic similar to webapplications and mobile applications that never existed in console application.
+
+#### Features
+- Create automatically menus with numbers
+- Fluent creation of menus
+- Navigation between pages (function)
+- Input/Output helpers
+
+##### Menu
+The base functionality of the library is to provide an easy way to create console menus. A `Menu` consists of `Options` that will be presented to a user for selection. An option contains a name, that will be displayed to the user, and a callback function to invoke if the user selects the option. Render the menu in the console using the `Display()` method.
+
+##### Utilities - Input/Output
+The infrastructure also provides input and output utilities to abstract the concept of dealing with the Console. The `Output` class adds helper methods to control the color of text in the console.
+
+The `Input` class adds helper methods that prompt the user for input. The utility takes care of displaying prompt text and handling parsing logic. For example, non-numeric input will be rejected by `ReadInt()` and the user will be re-prompted.
+
+##### Program
+All of these features can be put together to create complex programs with nested menus. A console program consists of a main `Program` class that contains `Pages`. The `Program` class is a navigator of pages and will keep a history of pages that a user is navigating through. Think of it as your browser history. To create a program you must subclass the `Program` class and add any `Pages` in the constructor.
 
 #### Main screen
 ![Main screen](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister1.PNG)
