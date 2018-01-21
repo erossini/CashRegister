@@ -18,7 +18,6 @@ In a normal supermarket, things are identified using Stock Keeping Units, or SKU
 | D     | £1.50  |
 
 Our checkout accepts items in any order, so that if we scan a B, an A, and another B, we’ll recognize the two ‘B’s and price them at £6.00 (for a total price so far of £11.00). 
-
 In addition, some items are multi-priced: buy n of them, and they’ll cost you y pounds.
 
 For example, item A might cost £5.00 individually, but this week we have a special offer: buy three ‘A’s and they’ll cost you £13.00 
@@ -40,6 +39,7 @@ For this reason _CashRegister.Library_ can be used in every kind of application:
 
 ## Application structure
 The application has the following components.
+![Application diagram](https://github.com/erossini/CashRegister/blob/master/Screenshot/Diagram.PNG)
 
 ### CashRegister.Library
 This is the important part of this project. This library contains the logic to add new goods in the shopping list. 
@@ -54,7 +54,5 @@ Interfaces define properties, methods, and events, which are the members of the 
 
 #### GoodsManager implements IGoodsManager
 Based on the Good model (under _Model > Good_), _GoodManager_ adds new item in the shopping list. When you add a new good, there is a validation of your input and a check if this element already exists in the shopping list.
-
-![Application diagram](https://github.com/erossini/CashRegister/blob/master/Screenshot/Diagram.PNG)
 
 ## Point of intests
