@@ -1,8 +1,3 @@
-
-
-
-
-
 # CashRegister
 Simple cash register for demo
 
@@ -63,5 +58,12 @@ When a new item is added in the basker, _BasketManager_ checks if there is any o
 _GoodManager_ is responsible for managing items in the shopping list. 
 
 When you add a new good, there is a validation of your input and a check if this element already exists in the shopping list.
+
+### CashRegister.Tests
+Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only. TDD is primarily a developer’s tool to help create well-written unit of code (function, class, or module) that correctly performs a set of operations.
+
+With TDD it cans test all functions and scenarios for **CashRegister.Library**. 
+
+![Test Explorer for CashRegister.Library](https://github.com/erossini/CashRegister/blob/master/Screenshot/TestExplorer.PNG)
 
 ## Point of intests
