@@ -3,3 +3,12 @@
 ################################################################################
 
 /CashRegister.ConsoleApp/bin/Debug/netcoreapp2.0
+/.vs
+/CashRegister.ConsoleApp/obj
+/CashRegister.Library/.vs
+/CashRegister.Library/CashRegister.Library/bin/Debug/netcoreapp2.0
+/CashRegister.Library/CashRegister.Library/obj
+/CashRegister.Repository/bin/Debug/netcoreapp2.0
+/CashRegister.Repository/obj
+/CashRegister.Tests/bin/Debug/netcoreapp2.0
+/CashRegister.Tests/obj

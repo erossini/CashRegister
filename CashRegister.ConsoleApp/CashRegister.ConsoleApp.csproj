@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\GoodAdd.cs~RFb4adbef.TMP" />
+    <None Remove="Pages\GoodList.cs~RFd4d8115.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashRegister.Library\CashRegister.Library\CashRegister.Library.csproj" />
+    <ProjectReference Include="..\CashRegister.Repository\CashRegister.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
