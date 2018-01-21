@@ -2,6 +2,7 @@
 
 
 
+
 # CashRegister
 Simple cash register for demo
 
@@ -43,6 +44,7 @@ The application has the following components.
 
 ### CashRegister.Library
 This is the important part of this project. This library contains the logic to add new goods in the shopping list. 
+![CashRegister.Library](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister.Library.Overview.PNG)
 
 First of all, you find _Interfaces_. An interface is defined as a syntactical contract that all the classes inheriting the interface should follow. The interface defines the _what_ part of the syntactical contract and the deriving classes define the _how_ part of the syntactical contract.
 
