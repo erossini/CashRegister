@@ -1,3 +1,6 @@
+
+
+
 # CashRegister
 Simple cash register for demo
 
@@ -26,3 +29,14 @@ The price and offer table:
 | B     | £3.00  | 2 for £4.50  |
 | C     | £2.00  |              |
 | D     | £1.50  |              |
+
+## Overview
+This application is build with .NET core 2.0, the latest version of .NET. 
+
+.NET Core is a general purpose, modular, cross-platform and open source implementation of the .NET Platform. It contains many of the same APIs as the .NET Framework (but .NET Core is a smaller set) and includes runtime, framework, compiler and tools components that support a variety of operating systems and chip targets. Microsoft is considering this technology as the [future of its development platform](https://blogs.msdn.microsoft.com/dotnet/2014/11/12/net-core-is-open-source/).
+
+For this reason _CashRegister.Library_ can be used in every kind of application: web, mobile or desktop. In my implementation I use it for a _Console_ application.
+
+## Application structure
+
+## Point of intests
