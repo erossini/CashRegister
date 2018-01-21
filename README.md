@@ -71,4 +71,21 @@ In this project there is the implementation from **CashRegister.Library** for re
 
 To avoid redundant code or duplicated function, there is a generic _GenericRepository<T>_ that write or read a file in json, serialized or deserialized data with a particular type: for each model there is class that it defines only the name of the function.
 
+### CashRegister.ConsoleApp
+
+#### Main screen
+![Main screen](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister1.PNG)
+
+#### Goods menu
+![Goods menu](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister2.PNG)
+
+#### List of Goods
+![List of Goods](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister3.PNG)
+
+#### Shopping menu
+![Shopping menu](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister4.PNG)
+
+#### Basket screen
+![Basket screen](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister5.PNG)
+
 ## Point of intests
