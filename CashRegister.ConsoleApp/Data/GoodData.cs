@@ -1,4 +1,5 @@
 ﻿using CashRegister.Library;
+using CashRegister.Library.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,7 +15,7 @@ namespace CashRegister.ConsoleApp.Data
         /// Gets the instance.
         /// </summary>
         /// <value>The instance.</value>
-        public static GoodsManager Instance
+        public static IGoodsManager Instance
         {
             get {
                 if (instance == null)

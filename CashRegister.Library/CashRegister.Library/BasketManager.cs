@@ -7,7 +7,7 @@ using System.Text;
 
 namespace CashRegister.Library
 {
-    public class BasketManager
+    public class BasketManager : IBasketManager
     {
         #region Common text
         public readonly string HistoryStart = "Open basket";

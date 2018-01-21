@@ -1,6 +1,7 @@
 ﻿using CashRegister.ConsoleApp.Data;
 using CashRegister.ConsoleApp.Infrastructures;
 using CashRegister.Library;
+using CashRegister.Library.Interfaces;
 using CashRegister.Library.Models;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,8 @@ namespace CashRegister.ConsoleApp.Pages
 {
     class ShoppingRegister : Page
     {
+        IBasketManager basketManager;
+
         public ShoppingRegister(Program program) : base("Cash register", program)
         {
         }
@@ -25,7 +28,7 @@ namespace CashRegister.ConsoleApp.Pages
             }
             else
             {
-                BasketManager basketManager = new BasketManager(GoodData.Instance);
+                basketManager = new BasketManager(GoodData.Instance);
                 Output.WriteLine(ConsoleColor.White, "Start to add items in your basket. Insert 0 to close your basket.");
                 string item = "";
 
