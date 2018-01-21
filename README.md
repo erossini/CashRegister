@@ -77,7 +77,7 @@ To try **CashRegister.Library** I created a console application. Why? I thought 
 #### Features
 - Create automatically menus with numbers
 - Fluent creation of menus
-- Navigation between pages (function)
+- Navigation between pages with breadcrumbs
 - Input/Output helpers
 
 ##### Menu
@@ -98,12 +98,14 @@ All of these features can be put together to create complex programs with nested
 ![Goods menu](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister2.PNG)
 
 #### List of Goods
+The list of goods can be created every time manually or loaded from file. To save a list, select option n. 4
 ![List of Goods](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister3.PNG)
 
 #### Shopping menu
 ![Shopping menu](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister4.PNG)
 
 #### Basket screen
+You add your items in the basket. When you finish, press `0` and the application shows you your receipt, your basket and all history.
 ![Basket screen](https://github.com/erossini/CashRegister/blob/master/Screenshot/CashRegister5.PNG)
 
 ## Point of intests
